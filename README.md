@@ -13,6 +13,7 @@
 指纹验证的委托
 	
 * ##### 声明
+
 	```
 	@property (nonatomic, weak) id<LSTouchIDAuthDelegate> delegate 
 	```
