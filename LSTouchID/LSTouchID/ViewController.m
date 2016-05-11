@@ -18,9 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //实例化LSTouchID并请求指纹验证
-    [[LSTouchID shareTouchID] authWithRequestReason:@"验证指纹"];
+    [[LSTouchID sharedTouchID] authWithRequestReason:@"验证指纹"];
     //设置委托对象
-    [LSTouchID shareTouchID].delegate = self;
+    [LSTouchID sharedTouchID].delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {

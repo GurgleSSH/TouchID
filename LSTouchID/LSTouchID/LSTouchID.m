@@ -13,7 +13,7 @@
 
 @implementation LSTouchID
 
-+ (instancetype)shareTouchID {
++ (instancetype)sharedTouchID {
     static LSTouchID *touchID = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

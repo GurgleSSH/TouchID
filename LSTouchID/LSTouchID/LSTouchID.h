@@ -72,7 +72,7 @@
 
 @property (nonatomic, weak) id<LSTouchIDAuthDelegate> delegate;
 
-+ (instancetype)shareTouchID;
++ (instancetype)sharedTouchID;
 - (void)authWithRequestReason:(NSString *)reasonStr;
 
 
