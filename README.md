@@ -31,6 +31,7 @@
 	
 * ##### 返回值
 	返回LSTouchID的实例对象。
+	
 ----
 	
 #### `- authWithRequestReason:`
@@ -48,6 +49,7 @@
 	| 参数名 | 描述 |
 	| ------------ | ------------- |
 	| reasonStr | 请求验证的原因 |
+	
 ----
 
 ### 协议
@@ -65,6 +67,7 @@
 	```
 	- (void)TouchIDNotFound
 	```
+	
 ----
 
 ##### `- TouchIDPassed` *Required*
@@ -76,6 +79,7 @@
 	```
 	- (void)TouchIDPassed
 	```
+	
 ----
 
 ##### `- TouchIDAuthFailed` *Required*
@@ -87,6 +91,7 @@
 	```
 	- (void)TouchIDAuthFailed
 	```
+	
 ----
 
 ##### `- TouchIDUserCancel` *Required*
@@ -98,6 +103,7 @@
 	```
 	- (void)TouchIDUserCancel
 	```
+	
 ----
 
 ##### `- TouchIDUserFallback` *Required*
@@ -109,6 +115,7 @@
 	```
 	- (void)TouchIDUserFallback
 	```
+	
 ----
 
 ##### `- TouchIDSystemCancel` *Optional*
@@ -120,6 +127,7 @@
 	```
 	- (void)TouchIDSystemCancel
 	```
+	
 ----
 
 ##### `- TouchIDPasscodeNotSet` *Optional*
@@ -131,6 +139,7 @@
 	```
 	- (void)TouchIDPasscodeNotSet
 	```
+	
 ----
 
 ##### `- TouchIDNotEnrolled` *Optional*
@@ -142,6 +151,7 @@
 	```
 	- (void)TouchIDNotEnrolled
 	```
+	
 ----
 	
 ##### `- TouchIDLockout` *Optional*
@@ -153,6 +163,7 @@ Touch ID功能被锁定，下一次需要输入系统密码。
 	```
 	- (void)TouchIDLockout
 	```
+	
 ----
 	
 ##### `- TouchIDAppCancel` *Optional*
@@ -164,6 +175,7 @@ Touch ID功能被锁定，下一次需要输入系统密码。
 	```
 	- (void)TouchIDAppCancel
 	```
+	
 ----
 
 ##### `- TouchIDInvalidContext` *Optional*
@@ -175,6 +187,7 @@ Touch ID功能被锁定，下一次需要输入系统密码。
 	```
 	- (void)TouchIDInvalidContext
 	```
+	
 ----
 
 ##### `- TouchIDFailed:` *Optional*
